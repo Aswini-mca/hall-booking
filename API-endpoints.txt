@@ -29,3 +29,8 @@ For example in body give JSON data like this
 4.'/customers/bookings => get request => to list all customers with the booked data.
 
 5.'/customers/booking-history' => get request => to get booking history of the customers.
+
+
+Github URL: https://github.com/Aswini-mca/hall-booking
+
+render URL: https://hall-booking-vp3u.onrender.com
