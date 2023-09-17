@@ -15,6 +15,7 @@ Hall Booking App endpoints details:
 
 For example in body give JSON data like this
   => if already room is booked on the same date & time it will not allow to book.
+  => if booking roomId is not match with room id it will show message as room not found.
 {
   "customerName": "John Doe",
   "date": "2023-09-20",

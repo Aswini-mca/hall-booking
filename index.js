@@ -23,7 +23,7 @@ app.post('/createroom', (req, res) => {
     };
 
     rooms.push(room);
-    console.log(room);
+    // console.log(room);
     res.status(201).json({ message: 'Room created successfully', room });
 });
 
@@ -65,7 +65,7 @@ app.post('/bookings', (req, res) => {
     };
 
     bookings.push(booking);
-    console.log(booking);
+    // console.log(booking);
 
     res.status(201).json({ message: 'Booking created successfully', booking });
 });
@@ -90,7 +90,7 @@ app.get('/rooms/bookings', (req, res) => {
             bookings: bookedData,
         };
     });
-    console.log(roomsWithBookings);
+    // console.log(roomsWithBookings);
     res.json(roomsWithBookings);
 });
 
@@ -113,7 +113,7 @@ app.get('/customers/bookings', (req, res) => {
             customersWithBookings.push(customerData);
         }
     }
-    console.log(customersWithBookings);
+    // console.log(customersWithBookings);
     res.json(customersWithBookings);
 });
 
